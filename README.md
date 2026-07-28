@@ -24,14 +24,13 @@ Crowd-Monitoring-System/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-└── assets/
 ```
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/<SinchanaRT31>/Crowd-Monitoring-System.git
+git clone https://github.com/SinchanaRT31/Crowd-Monitoring-System.git
 ```
 
 2. Install dependencies:
@@ -52,5 +51,4 @@ streamlit run app.py
 - Alert generation
 - Historical analytics
 
-## License
-This project is licensed under the MIT License.
+
