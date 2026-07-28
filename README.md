@@ -1,16 +1,24 @@
-# Crowd-Monitoring-System
-# AI-Powered Crowd Monitoring System
+# Crowd Monitoring System
 
 ## Overview
-A real-time crowd monitoring application that detects and counts people from a live webcam feed using YOLOv8, OpenCV, and Streamlit.
+
+This project is a real-time crowd monitoring system developed using YOLOv8, OpenCV, and Streamlit. It detects people from a live webcam feed, counts the number of people present, and displays the crowd status on a web dashboard. The system also records the crowd count in a CSV file and captures snapshots whenever the number of people exceeds the specified threshold.
 
 ## Features
-- Real-time webcam monitoring
-- Human detection using YOLOv8
-- Live person counting
-- Bounding box visualization
 
-## Tech Stack
+- Real-time webcam monitoring
+- Person detection using YOLOv8
+- Live crowd counting
+- Crowd status (Normal / Overcrowded)
+- Adjustable confidence threshold
+- Adjustable crowd threshold
+- Occupancy percentage calculation
+- Automatic CSV logging
+- Snapshot capture during overcrowding
+- Download crowd log file
+
+## Technologies Used
+
 - Python
 - YOLOv8 (Ultralytics)
 - OpenCV
@@ -18,37 +26,45 @@ A real-time crowd monitoring application that detects and counts people from a l
 - streamlit-webrtc
 
 ## Project Structure
+
 ```
 Crowd-Monitoring-System/
-├── app.py
-├── README.md
-├── requirements.txt
-├── .gitignore
+│── app.py
+│── requirements.txt
+│── README.md
+│── yolov8n.pt
 ```
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
+
 ```bash
 git clone https://github.com/SinchanaRT31/Crowd-Monitoring-System.git
 ```
 
-2. Install dependencies:
+Move to the project directory:
+
+```bash
+cd Crowd-Monitoring-System
+```
+
+Install the required packages:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the application:
+Run the application:
+
 ```bash
 streamlit run app.py
 ```
 
-## Future Enhancements
-- Crowd density estimation
-- Occupancy dashboard
-- Heatmap visualization
-- Entry/Exit counting
-- Alert generation
-- Historical analytics
+## Future Scope
 
-
+- Support multiple cameras
+- Generate heatmaps for crowd density
+- Zone-based crowd monitoring
+- Email alert notifications
+- Cloud deployment
