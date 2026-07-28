@@ -61,10 +61,12 @@ Run the application:
 streamlit run app.py
 ```
 
-## Future Scope
+## Future Enhancements
+- Crowd density estimation
+- Occupancy dashboard
+- Heatmap visualization
+- Entry/Exit counting
+- Alert generation
+- Historical analytics
 
-- Support multiple cameras
-- Generate heatmaps for crowd density
-- Zone-based crowd monitoring
-- Email alert notifications
-- Cloud deployment
+

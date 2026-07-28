@@ -1,19 +1,6 @@
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Virtual environments
-venv/
+crowd_logs.csv
+snapshots/
 .venv/
-env/
-
-# Environment variables
-.env
-
-# IDE settings
-.vscode/
-.idea/
-
-# Operating system files
-.DS_Store
-Thumbs.db
+__pycache__/
+*.pyc
+yolov8n.pt
